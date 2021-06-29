@@ -10,8 +10,6 @@ print("public key: {0} mod {1}".format(a, b))
 s1 = randint(1, 50)
 s2 = randint(1, 50)
 
-print("secrets nums: {0}, {1}".format(s1, s2))
-
 
 def calc(a, b, c):
     return a ** c % b
